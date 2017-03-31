@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Templates>
+  <PRDF>
+    <Template name="DEFAULT" retailerid="MOSSDEFAULT" fiid="0010"></Template>
+  </PRDF>
+  <PTDF>
+    <Template name="DEFAULT" terminalid="MOSSDEFAULT" ></Template>
+    <Template name="UNATTENDED" terminalid="MOSSUNATTENDED" ></Template>
+    <Template name="NONEMV" terminalid="MOSSNONEMV" ></Template>
+	<Template name="PAYNET" terminalid="MOSSPAYNET" ></Template>
+  </PTDF>
+</Templates>

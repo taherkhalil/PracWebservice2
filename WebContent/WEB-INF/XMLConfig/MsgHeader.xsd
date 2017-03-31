@@ -1,0 +1,64 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="BASE24">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="MSGHEADER">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SCCGP">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="TERMID"/>
+                    <xs:element type="xs:byte" name="OMFAUDIT"/>
+                    <xs:element type="xs:string" name="FRMTCDE"/>
+                    <xs:element type="xs:short" name="REPLCDE"/>
+                    <xs:element type="xs:byte" name="FIID"/>
+                    <xs:element type="xs:string" name="REGN"/>
+                    <xs:element type="xs:string" name="BRCH"/>
+                    <xs:element type="xs:short" name="USERGRP"/>
+                    <xs:element type="xs:short" name="USERNUM"/>
+                    <xs:element type="xs:integer" name="SITEPRODIND"/>
+                    <xs:element type="xs:short" name="ERRCDE"/>
+                    <xs:element type="xs:byte" name="ERRSUBCDE"/>
+                    <xs:element type="xs:string" name="PTD_SERVER"/>
+                    <xs:element type="xs:string" name="RDF_SERVER"/>
+                    <xs:element type="xs:string" name="PIN_SERVER"/>
+                    <xs:element type="xs:string" name="SYSTEM"/>
+                    <xs:element type="xs:string" name="PATHMON"/>
+                    <xs:element type="xs:string" name="LN"/>
+                    <xs:element type="xs:string" name="LCONFNAME"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MCCGP">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="TERMID"/>
+                    <xs:element type="xs:byte" name="OMFAUDIT"/>
+                    <xs:element type="xs:string" name="FRMTCDE"/>
+                    <xs:element type="xs:short" name="REPLCDE"/>
+                    <xs:element type="xs:byte" name="FIID"/>
+                    <xs:element type="xs:string" name="REGN"/>
+                    <xs:element type="xs:string" name="BRCH"/>
+                    <xs:element type="xs:short" name="USERGRP"/>
+                    <xs:element type="xs:short" name="USERNUM"/>
+                    <xs:element type="xs:integer" name="SITEPRODIND"/>
+                    <xs:element type="xs:short" name="ERRCDE"/>
+                    <xs:element type="xs:byte" name="ERRSUBCDE"/>
+                    <xs:element type="xs:string" name="PTD_SERVER"/>
+                    <xs:element type="xs:string" name="RDF_SERVER"/>
+                    <xs:element type="xs:string" name="PIN_SERVER"/>
+                    <xs:element type="xs:string" name="SYSTEM"/>
+                    <xs:element type="xs:string" name="PATHMON"/>
+                    <xs:element type="xs:string" name="LN"/>
+                    <xs:element type="xs:string" name="LCONFNAME"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
